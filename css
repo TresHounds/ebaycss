@@ -1,0 +1,59 @@
+@charset "UTF-8";
+/* CSS Document */
+
+body{
+	background-color: white;
+	cursor: auto;
+	margin: auto;
+	padding: auto;
+	font: Gotham, "Helvetica Neue", Helvetica, Arial, "sans-serif";
+	width: 100vw;
+		
+}
+	div{
+	list-style-type: none;
+	color: white;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: rgb(0,61,126);
+	width: auto;
+			
+}
+	h1, h2, h3, h4, h5{
+		color: black;
+}
+	ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: rgb(0,61,126);
+	width: auto;
+}
+
+	li {
+    float: left;
+}
+
+	li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+	li a:hover:not(.active) {
+    background-color: rgba(22,77,148,1.00);
+}
+
+	.active {
+    background-color: rgb(255,152,0);
+}
+	img {
+    display: block;
+    margin: 0 auto;
+    display: block;
+
+}
